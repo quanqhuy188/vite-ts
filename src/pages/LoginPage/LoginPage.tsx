@@ -15,7 +15,16 @@ const LoginPage = () => {
                   placeholder='Nhập email'
                   className='p-3 w-full outline-none border border-gray-300 focus:border-gray-500'
                 />
-                <div className='mt-1 text-red-600 min-h-[1rem] text-sm'>sss</div>
+                <div className='mt-1 text-red-600 min-h-[1rem] text-sm'></div>
+              </div>
+              <div className='mt-8'>
+                <input
+                  type='email'
+                  name='email'
+                  placeholder='Nhập email'
+                  className='p-3 w-full outline-none border border-gray-300 focus:border-gray-500'
+                />
+                <div className='mt-1 text-red-600 min-h-[1rem] text-sm'></div>
               </div>
             </form>
           </div>
